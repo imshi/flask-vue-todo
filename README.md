@@ -29,9 +29,9 @@ Replace `yarn` with `npm` if you are using `npm`. Frontend pages will be served 
 ``` bash
 # In the repo root, install all dependencies
 # require Python3
-pip3 install pipenv
-pip3 install Flask
-pip3 install Flask-Migrate
+pip install pipenv
+pip install Flask
+pip install Flask-Migrate
 pipenv --python /usr/bin/python
 # pipenv install
 
