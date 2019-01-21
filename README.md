@@ -32,7 +32,8 @@ Replace `yarn` with `npm` if you are using `npm`. Frontend pages will be served 
 pip3 install pipenv
 pip3 install Flask
 pip3 install Flask-Migrate
-pipenv install
+pipenv --python /usr/bin/python
+# pipenv install
 
 # Init DB
 pipenv run flask db upgrade
