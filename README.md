@@ -28,6 +28,9 @@ Replace `yarn` with `npm` if you are using `npm`. Frontend pages will be served 
 
 ``` bash
 # In the repo root, install all dependencies
+# require Python3
+pip install pipenv
+pip install Flask
 pipenv install
 
 # Init DB
